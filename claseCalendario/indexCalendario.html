@@ -10,35 +10,24 @@
     <main>
         <section>
             <form action="">
-                <label for="calendario">
-                    <span>Calendario de llegada</span><br>
-                    <input type="datetime-local" id="calendario" name="calendario"/>
+                <label for="name">
+                    <span>¿Cuál es tu nombre?</span>
+                    <input type="text" id="name" name="name" autocomplete="name" required/>
                 </label>
-                <input type="submit" value="Enviar"/>
-            </form><br>
-
-            <!-- <form action="">
-                <label for="hora">
-                    <span>hora</span>
-                    <input type="time" id="hora" name="hora"/>
+                <label for="email">
+                    <span>¿Cuál es tu correo electrónico?</span>
+                    <input type="email" id="email" name="email" autocomplete="email" required/>
                 </label>
-                <label for="mes">
-                    <span>mes</span>
-                    <input type="month" id="mes" name="mes"/>
+                <label for="country">
+                    <span>¿Cuál es tu país?</span>
+                    <input type="text" id="country" name="country" autocomplete="country" required/>
                 </label>
-                <label for="semana">
-                    <span>semana</span>
-                    <input type="week" id="semana" name="semana"/>
+                <label for="CP">
+                    <span>¿Cuál es tu código postal?</span>
+                    <input type="text" id="CP" name="CP" autocomplete="postal-code" required/>
                 </label>
-                <label for="dia">
-                    <span>día</span>
-                    <input type="date" id="dia" name="dia"/>
-                </label>
-
-                <label for="submit">
-                    <input type="submit" value="Enviar">
-                </label>
-            </form> -->
+                <input type="submit" value="Enviar">
+            </form>
         </section>
     </main>
     
