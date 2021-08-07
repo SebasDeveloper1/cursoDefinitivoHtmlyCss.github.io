@@ -1,0 +1,27 @@
+.main-nav {
+  margin-top: 10px;
+  background-color: #1e5183da;
+  list-style: none;
+  padding: 10px;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__link {
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 2px;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+
+.main-nav__link:hover {
+  background-color: #2196f3;
+}
+
+.main-nav__link::after {
+  content: " 💚";
+}
