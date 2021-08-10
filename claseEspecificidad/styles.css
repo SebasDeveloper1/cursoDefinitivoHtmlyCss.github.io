@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: purple;
+  font-family: serif;
+  margin-bottom: 10px;
+}
+
+.header__title {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.main-nav__list {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__link {
+  color: #fff;
+  background-color: #2196f3;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.main-nav__link:hover {
+  background-color: green;
+}
