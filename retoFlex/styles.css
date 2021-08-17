@@ -73,6 +73,7 @@ body {
   align-items: center;
   background-color: #fff;
   margin: 5px 10px;
+  border-radius: 5px;
 }
 
 .aside__element-img {
